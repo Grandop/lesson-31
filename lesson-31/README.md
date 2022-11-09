@@ -2,16 +2,19 @@
 
 1) Eles são acessaddos pela própria classe e não precisam instanciar um objeto da classe
 
-2) Um protocolo define um ou mais métodos e podendo ser acessado por uma classe ou struct
+2) Um protocolo define prototipos de um ou mais métodos e podendo ser acessado por uma classe ou struct
 
 3) UITableViewDataSource e o UITableViewDelegate
 
 4) numberOfRowsInSection = define o numero de linhas na seção
    cellForRowAt = define o que vai dentro de cada célula
    
-5) Dentro do método a var/let so existe dentro do contexto do método. No struct/class tu pode ser acessado passando o nome do struct/class para um variável assim as var/let podem ser usadas acessadas no novo arquivo ou também pode ser acessados por meio de herança
+5)  Dentro do método a var/let so existe dentro do contexto do método. No struct/class tu pode ser acessado em qualquer contexto da classe
 
-6) 
+6) Sim. var findSquare = { (num: Int) -> (Int) in
+    var square = num * num
+    return square
+}
 
 7) São todas as partes que a view passa, antes de carregar, carregada, depois de carregada e etc...
 
