@@ -1,6 +1,6 @@
 #  Lesson 31
 
-1) Eles são acessaddos pela própria classe e não precisam ser inicializados
+1) Eles são acessaddos pela própria classe e não precisam instanciar um objeto da classe
 
 2) Um protocolo define um ou mais métodos e podendo ser acessado por uma classe ou struct
 
